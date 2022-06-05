@@ -1,0 +1,3 @@
+java为了可移植性,不允许直接调用os,有java.net包来提供网络功能,java虚拟机负责提供实际连接
+
+其中这个包里的IneetAddress类封装计算机的ip地址与Dns信息
