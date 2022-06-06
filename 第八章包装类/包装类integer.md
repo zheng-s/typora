@@ -8,7 +8,7 @@
 
  包装类均位于java.lang包，八种包装类和基本数据类型的对应关系如表8-1所示：
 
-![表8-1基本数据类型对应的包装类.png](../../../blog/zheng-s/source/image/1495593568889579.png)
+![image](https://user-images.githubusercontent.com/65000660/172188615-14e0d843-33df-45ed-ba01-8135a858cf2b.png)
 
 
 
@@ -29,7 +29,8 @@ public` `class` `WrapperClassTest {
 
 
 
-![图8-3 示例8-1内存分析图.png](../../../blog/zheng-s/source/image/1495593796672168.png)
+![image](https://user-images.githubusercontent.com/65000660/172188659-ec6de774-8b65-4467-b8d6-131bd6a35aeb.png)
+
 
 
 
