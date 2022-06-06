@@ -2,7 +2,7 @@
 
 ### javaweb技术栈
 
-![image-20220419101202890](../../../../blog/zheng-s/source/image/image-20220419101202890.png)
+![image](https://user-images.githubusercontent.com/65000660/172173187-f7a21985-66d9-4345-9ccd-090a3297959c.png)
 
 
 
@@ -12,5 +12,6 @@
 
 浏览器与服务区要学http协议与规则:
 
-![image-20220419101223985](../../../../blog/zheng-s/source/image/image-20220419101223985.png)
+![image](https://user-images.githubusercontent.com/65000660/172173222-d2630d88-66c0-4a0e-a861-64da51cc128a.png)
+
 
