@@ -3,10 +3,10 @@
 ### 原始jdbc操作:
 
 **这段代码一般在dao层,持久层,在一般开发中,层与层之间的数据传递通过实体pojo对象,或者叫做javabean实体,取出结果集数据封装为user实体,user对象返回业务层**
+![image](https://user-images.githubusercontent.com/65000660/172404436-8c3799f2-83f2-4af7-af12-9481268fb2c7.png)
+![image](https://user-images.githubusercontent.com/65000660/172404458-dda4e488-c8e4-4cc6-93ad-8040af957fca.png)
 
-![image-20220505110518032](../../../blog/zheng-s/source/image/image-20220505110518032.png)
 
-![image-20220505110857627](../../../blog/zheng-s/source/image/image-20220505110857627.png)
 
 很多代码都是重复的,把变化的代码自己写,其他的抽取
 
@@ -38,7 +38,8 @@
 
 ### mybatis简介:(借车还车,不用造车)
 
-![image-20220505162854092](../../../blog/zheng-s/source/image/image-20220505162854092.png)
+![image](https://user-images.githubusercontent.com/65000660/172404523-e52df8fb-004e-4256-913b-99d9691c55bf.png)
+
 
 
 
@@ -95,7 +96,8 @@ mybatis
 
 ##### ② 创建user数据表 (操作实体从而操作表,操作表后的数据封装为实体,比如session对象)
 
-![image-20220505164120667](../../../blog/zheng-s/source/image/image-20220505164120667.png)
+![image](https://user-images.githubusercontent.com/65000660/172404603-cd356538-50d4-407d-8baa-b0b4ed81c293.png)
+
 
 ##### ③ 编写User实体类 
 
@@ -251,4 +253,4 @@ namesapce结合id组成一个调用的名字在java代码中出现
 
 ### mybatis的映射文件概述:
 
-![image-20220505165937649](../../../blog/zheng-s/source/image/image-20220505165937649.png)
+![image](https://user-images.githubusercontent.com/65000660/172404666-8c00542e-80cf-492e-a7a4-5bb57fed87fc.png)
