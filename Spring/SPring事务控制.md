@@ -14,7 +14,8 @@ PlatformTransactionManager 是接口类型，不同的 Dao 层技术则有不同
 
 
 
-![image-20220505094524754](../../../blog/zheng-s/source/image/image-20220505094524754.png)
+![image](https://user-images.githubusercontent.com/65000660/172405041-bca219c4-285e-44b1-8383-2eca21595781.png)
+
 
 
 
@@ -66,7 +67,8 @@ ISOLATION_DEFAULT
 
 TransactionStatus 接口提供的是事务具体的运行状态，方法介绍如下。
 
-![image-20220505095511270](../../../blog/zheng-s/source/image/image-20220505095511270.png)
+![image](https://user-images.githubusercontent.com/65000660/172405250-d26d882b-eb28-4eb2-98d1-0274d466383f.png)
+
 
 ### 1.4 知识要点 编程式事务控制三大对象 
 
@@ -154,7 +156,8 @@ transfer方法是切点
 
 #### 2.3 切点方法的事务参数的配置
 
-![image-20220505104812139](../../../blog/zheng-s/source/image/image-20220505104812139.png)
+![image](https://user-images.githubusercontent.com/65000660/172405361-8163099d-d049-4f94-8aed-5c915ed9e463.png)
+
 
 
 
