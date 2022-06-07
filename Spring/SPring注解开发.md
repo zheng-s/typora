@@ -1,6 +1,7 @@
 配置繁重,注解是趋势,提高开发速度
 
-![image-20220427104819364](../../../blog/zheng-s/source/image/image-20220427104819364.png)
+![image](https://user-images.githubusercontent.com/65000660/172405589-8d7fdc7d-ef5e-46af-8e51-a6ab6abb5537.png)
+
 
 ### 原始注解(老注解)  :
 
@@ -85,9 +86,9 @@ jdbc.driver=com.mysql.jdbc.Driver
 
 ### 新注解:
 
-![image-20220427153115846](../../../blog/zheng-s/source/image/image-20220427153115846.png)
+![image](https://user-images.githubusercontent.com/65000660/172405743-f806cbb0-ae33-44fd-99da-00cf7253e889.png)
 
-![image-20220427153237273](../../../blog/zheng-s/source/image/image-20220427153237273.png)
+![image](https://user-images.githubusercontent.com/65000660/172405766-760fe627-c45b-46d3-8680-b5ecb577ee7d.png)
 
 
 
