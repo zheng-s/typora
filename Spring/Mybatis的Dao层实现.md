@@ -26,7 +26,8 @@
 
 4、 Mapper接口方法的输出参数类型和mapper.xml中定义的每个sql的resultType的类型相同
 
-![image-20220506160212136](../../../blog/zheng-s/source/image/image-20220506160212136.png)
+![image](https://user-images.githubusercontent.com/65000660/172402817-fa714945-5402-4b18-bda7-f319b66ab5d5.png)
+
 
 ```java
 UserMapper mapper = sqlSession.getMapper(UserMapper.class);
