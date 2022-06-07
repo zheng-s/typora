@@ -1,4 +1,4 @@
-![image-20220504173254998](../../../blog/zheng-s/source/image/image-20220504173254998.png)
+![image](https://user-images.githubusercontent.com/65000660/172418759-01519065-d08e-4f3e-9463-f8cafa4ba41c.png)
 
 ###  异常处理两种方式:
 
@@ -10,7 +10,7 @@ SpringMVC已经定义好了该类型转换器，在使用时可以根据项目�
 
 就是一个异常对应一个显示界面:
 
-![image-20220504180130713](../../../blog/zheng-s/source/image/image-20220504180130713.png)
+![image](https://user-images.githubusercontent.com/65000660/172418800-acefe251-e190-4ffd-99ed-c5f21e68a99c.png)
 
 ```xml
 <!--配置异常处理器-->
