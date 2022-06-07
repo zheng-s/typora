@@ -20,7 +20,7 @@ java当中如何实现代理
 
 代理类在程序运行期间，创建的代理对象称之为动态代理对象。这种情况下，创建的代理对象，并不是事先在Java代码中定义好的。而是在运行期间，根据我们在动态代理对象中的“指示”，动态生成的。也就是说，你想获取哪个对象的代理，动态代理就会为你动态的生成这个对象的代理对象。动态代理可以对被代理对象的方法进行功能增强。有了动态代理的技术，那么就可以在不修改方法源码的情况下，增强被代理对象的方法的功能，在方法执行前后做任何你想做的事情。
 
-![image-20220504194718790](../../../blog/zheng-s/source/image/image-20220504194718790.png)
+![image](https://user-images.githubusercontent.com/65000660/172407229-fd9af3f6-b772-4eb1-b46b-9d90cddb7f4b.png)
 
 创建代理对象的两个方法：
 
@@ -32,7 +32,8 @@ Proxy.newProxyInstance(三个参数);
 
 Enhancer.create(两个参数);
 
-![image-20220504195905341](../../../blog/zheng-s/source/image/image-20220504195905341.png)
+![image](https://user-images.githubusercontent.com/65000660/172407405-a71f9641-7665-4328-9ee7-f66d62568e61.png)
+
 
 ### AOP的底层实现:
 
@@ -227,7 +228,8 @@ public class ProxyTest {
 
 Spring 的 AOP 实现底层就是对上面的动态代理的代码进行了封装，封装后我们只需要对需要关注的部分进行代码编 写，并通过配置的方式完成指定目标的方法增强。
 
-![image-20220504205201504](../../../blog/zheng-s/source/image/image-20220504205201504.png)
+![image](https://user-images.githubusercontent.com/65000660/172407504-1fcf1dbc-97ba-4cf3-8fde-28a1f39b150b.png)
+
 
 被切入的连接点(就是一个等待被增强的方法)叫做切入点
 
