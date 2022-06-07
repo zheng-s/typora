@@ -1,7 +1,7 @@
-![image-20220415104728049](../../../blog/zheng-s/source/image/image-20220415104728049.png)
+![image](https://user-images.githubusercontent.com/65000660/172335159-2cc58ed2-0133-40d6-95dd-b8c76c1f6e6e.png)
 
-![image-20220418100739166](../../../blog/zheng-s/source/image/image-20220418100739166.png)
 
+![image](https://user-images.githubusercontent.com/65000660/172335180-745c92a5-063d-493d-a50e-71ba15d5fca8.png)
 
 
 
@@ -11,8 +11,9 @@
 ### 通过JBDC你可以用java代码操作数据库
 
 
+![image](https://user-images.githubusercontent.com/65000660/172335278-f09a31c3-345c-476f-9b92-6abf5df7bfc3.png)
 
-![image-20220418100905186](../../../blog/zheng-s/source/image/image-20220418100905186.png)
+
 
 #### 1导入mysql的对于JBDC的实现类(驱动)
 
@@ -34,13 +35,15 @@
 
 只需要用ＪＢＤＣ就可以用ｊａｖａ代码操作不同的数据库
 
-![image-20220415105140376](../../../blog/zheng-s/source/image/image-20220415105140376.png)
+![image](https://user-images.githubusercontent.com/65000660/172335318-bfe75112-7de2-49b1-9eb5-e999002529cb.png)
 
 
 
 
 
-![image-20220415105215954](../../../blog/zheng-s/source/image/image-20220415105215954.png)
+
+![image](https://user-images.githubusercontent.com/65000660/172335357-017bb3d8-a523-4e1a-8c10-8dd7da1da203.png)
+
 
 
 
