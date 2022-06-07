@@ -1,18 +1,19 @@
 ### 插入:
+![image](https://user-images.githubusercontent.com/65000660/172403112-c2dc276e-1335-4566-8fad-588221a09554.png)
+![image](https://user-images.githubusercontent.com/65000660/172403131-97508eda-16b7-4faa-9447-bd2553b83bde.png)
 
-![image-20220505172124523](../../../blog/zheng-s/source/image/image-20220505172124523.png)
 
-![image-20220505172140267](../../../blog/zheng-s/source/image/image-20220505172140267.png)
 
-#### 插入操作注意的问题:插图涉及变化事务,一起喝成![image-20220505172151607](../../../blog/zheng-s/source/image/image-20220505172151607.png)
+#### 插入操作注意的问题:插图涉及变化事务,一气呵成
+![image](https://user-images.githubusercontent.com/65000660/172403222-57b83bd8-3d47-49d1-84e5-cb48ef572173.png)
 
 
 
 ### 修改:
+![image](https://user-images.githubusercontent.com/65000660/172403296-672b1eb6-0df6-4543-bcc5-ebeccb23be65.png)
 
-![image-20220505172415599](../../../blog/zheng-s/source/image/image-20220505172415599.png)
+![image](https://user-images.githubusercontent.com/65000660/172403314-9b7a3f2f-ad17-40d7-bd10-fa2396830359.png)
 
-![image-20220505172431856](../../../blog/zheng-s/source/image/image-20220505172431856.png)
 
 ```java
 //修改操作
@@ -61,6 +62,7 @@ public void test3() throws IOException {
 
 ### 增删改查映射配置与API：
 
-![image-20220505200928864](../../../blog/zheng-s/source/image/image-20220505200928864.png)
+![image](https://user-images.githubusercontent.com/65000660/172403398-2c04b8e0-1f61-4eae-8977-a86617ec616f.png)
+
 
 如果查询有条件,也会有parameterType这个参数类型,条件就是这个类型,根据id,他就是int
