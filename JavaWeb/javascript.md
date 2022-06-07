@@ -82,21 +82,24 @@ array对象,String对象,自定义对象
 使用对象,查文档
 
 [CSS 教程 (w3school.com.cn)](https://www.w3school.com.cn/css/index.asp)](https://www.w3school.com.cn/css/index.asp)
+
 ### 5,BOM
 
 ### 6,事件监听:
+在事件被侦测到时执行代码,事件可以是点击某一个按钮,把光标放在某一网页区域
 
-![image-20220419094621096](../../../blog/zheng-s/source/image/image-20220419094621096.png)
-
-![image-20220419094723492](../../../blog/zheng-s/source/image/image-20220419094723492.png)
-
-![image-20220419094846460](../../../blog/zheng-s/source/image/image-20220419094846460.png)
-
-推荐第二种
-
-![image-20220419095200071](../../../blog/zheng-s/source/image/image-20220419095200071.png)
-
-
+事件绑定,通过DOM元素绑定
+1.事件绑定分三种常用的方法:
+(1)在DOM元素中直接绑定
+(2)在js代码中绑定;
+(3)绑定事件监听函数
+DOM元素中直接绑定:
+<input type='button' onclick='fn()'>
+    <script>
+        function fn(){
+            console.log('hello');
+    }           
+    </script>
 
 
 
