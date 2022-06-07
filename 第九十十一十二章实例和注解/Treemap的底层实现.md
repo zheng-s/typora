@@ -2,7 +2,8 @@ TreeMap是红黑二叉树的典型实现
 
 root用来存储整个树的根节点。我们继续跟踪Entry(是TreeMap的内部类)的代码：
 
-![图9-23 Entry底层源码.png](../../../blog/zheng-s/source/image/1495695046855639.png)
+![image](https://user-images.githubusercontent.com/65000660/172333574-a5c8b0b7-c69f-4405-9fdb-90c350816788.png)
+
 
 图9-23 Entry底层源码
 
