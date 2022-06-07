@@ -7,12 +7,14 @@ SSM:主要是spring与mybatis的整合,springmvc主要是与spring整合过了,�
 ### 1,原始整合方式
 
 #### 数据库的数据(表)
-
-![image-20220507172129472](../../../blog/zheng-s/source/image/image-20220507172129472.png)
+![image](https://user-images.githubusercontent.com/65000660/172406148-d292fce9-1b0c-4992-89af-442d8866b466.png)
 
 #### \2. 创建Maven工程
 
-![image-20220507172249670](../../../blog/zheng-s/source/image/image-20220507172249670.png)
+![image](https://user-images.githubusercontent.com/65000660/172406099-fd63965a-cc8f-49ff-9736-8a834d355318.png)
+
+
+
 
 #### 3.导入Maven坐标
 
@@ -149,7 +151,7 @@ public class AccountController {
 
 spring.xml是spring与springmvc的..     mybatis映射文件与核心文件   spring与springmvc需要借助web.xml与web项目结合,spring需要监听器,springmvc需要一个前端控制器,
 
-![image-20220507174722890](../../../blog/zheng-s/source/image/image-20220507174722890.png)
+![image](https://user-images.githubusercontent.com/65000660/172406273-c7b48d8b-fb59-4796-82b7-f7bc37fff9f5.png)
 
 
 
@@ -344,7 +346,7 @@ return accountList;
 
 
 
-![image-20220507205834607](../../../blog/zheng-s/source/image/image-20220507205834607.png)
+![image](https://user-images.githubusercontent.com/65000660/172406432-34d6a143-7619-44fe-8a13-dfaea102a85f.png)
 
 
 
