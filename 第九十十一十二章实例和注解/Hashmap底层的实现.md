@@ -24,7 +24,8 @@ HashMap的位桶数组，初始大小为16。实际使用时，显然大小是�
 
 
 
-![图9-15 Entry数组存储结构图.png](../../../blog/zheng-s/source/image/1495619119905721.png)
+![image](https://user-images.githubusercontent.com/65000660/172333246-9b0f8e8c-51e8-4efd-998d-7e68f376652b.png)
+
 
 
 
