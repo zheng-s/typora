@@ -45,7 +45,8 @@
 
 #### \1. environments标签
 
-![image-20220505201426228](../../../blog/zheng-s/source/image/image-20220505201426228.png)
+![image](https://user-images.githubusercontent.com/65000660/172402306-2cfac5d2-96d8-4852-b29e-b26ba6b3d353.png)
+
 
 其中，事务管理器（transactionManager）类型有两种：
 
@@ -136,7 +137,8 @@ jdbc.username=root
 jdbc.password=sz152261
 ```
 
-![image-20220505202443002](../../../blog/zheng-s/source/image/image-20220505202443002.png)
+![image](https://user-images.githubusercontent.com/65000660/172402391-27ba1c9e-e41a-44e0-a4d0-d6982d98fae7.png)
+
 
 
 
@@ -144,6 +146,6 @@ jdbc.password=sz152261
 
 #### \4. typeAliases标签:(定义别名)
 
-![image-20220505202730600](../../../blog/zheng-s/source/image/image-20220505202730600.png)
+![image](https://user-images.githubusercontent.com/65000660/172402436-23cd60d4-876f-40b1-a05f-a949b4f68a8e.png)
+![image](https://user-images.githubusercontent.com/65000660/172402463-428dbc16-dc54-4dec-95a7-41f6de8969f0.png)
 
-![image-20220505202811610](../../../blog/zheng-s/source/image/image-20220505202811610.png)
