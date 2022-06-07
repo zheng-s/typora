@@ -86,7 +86,8 @@ user对order是一对多的,一个用户可以有多个订单,我要查用户和
 
 多对多的建表原则需要引入一个中间表
 
-![image-20220507110045159](../../../blog/zheng-s/source/image/image-20220507110045159.png)
+![image](https://user-images.githubusercontent.com/65000660/172403698-70319793-04a3-43b4-8d4f-b90ac347d598.png)
+
 
 中间表维护着两个外键\:
 
