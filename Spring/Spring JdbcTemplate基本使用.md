@@ -1,6 +1,6 @@
 ###  JdbcTemplate开发步骤:
 
-![image-20220502164851119](../../../blog/zheng-s/source/image/image-20220502164851119.png)
+![image](https://user-images.githubusercontent.com/65000660/172406857-5d8c2c78-0ed0-4766-bfee-075047b7d95b.png)
 
 ```java
 @Test
@@ -133,8 +133,7 @@ public class JdbcTemplateCRUDTest {
 
 
 
-![image-20220502171533699](../../../blog/zheng-s/source/image/image-20220502171533699.png)
+![image](https://user-images.githubusercontent.com/65000660/172406931-1c7f5b01-78d3-438e-a802-4f248c7b2f16.png)
 
 
-
-![image-20220502171547133](../../../blog/zheng-s/source/image/image-20220502171547133.png)
+![image](https://user-images.githubusercontent.com/65000660/172406953-930bdd38-9921-45b8-8494-d81b3fed8d2c.png)
