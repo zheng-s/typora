@@ -8,7 +8,7 @@ IAccountService as = ac.getBean("accountService",IAccountService.class);
 
 ### • 让SpringJunit负责创建Spring容器，但是需要将配置文件的名称告诉它
 
-![image-20220427162137606](../../../blog/zheng-s/source/image/image-20220427162137606.png)
+![image](https://user-images.githubusercontent.com/65000660/172419051-fcd02d2f-f22a-4f4b-9dbc-017aa0bd50c0.png)
 
 
 
@@ -18,19 +18,19 @@ IAccountService as = ac.getBean("accountService",IAccountService.class);
 
 #### (2)
 
-![image-20220427163500065](../../../blog/zheng-s/source/image/image-20220427163500065.png)
+![image](https://user-images.githubusercontent.com/65000660/172419084-bcf69ed1-d127-45b5-a4a5-06ef75623112.png)
 
 #### (3)
 
-![image-20220427163605388](../../../blog/zheng-s/source/image/image-20220427163605388.png)
+![image](https://user-images.githubusercontent.com/65000660/172419123-8c1fe758-644f-4274-993a-60f48af82ea3.png)
 
 #### (4)
 
-![image-20220427163619477](../../../blog/zheng-s/source/image/image-20220427163619477.png)
+![image](https://user-images.githubusercontent.com/65000660/172419158-d11dc627-64d6-4614-8164-3f3afda08908.png)
 
 #### (5)
 
-![image-20220427163633589](../../../blog/zheng-s/source/image/image-20220427163633589.png)
+![image](https://user-images.githubusercontent.com/65000660/172419194-78aa6a39-e83c-4d82-be0c-9cc2d36f3a69.png)
 
 
 
