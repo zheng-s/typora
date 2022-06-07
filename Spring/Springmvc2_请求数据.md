@@ -6,7 +6,7 @@ Restful风格的请求是使用“url+请求方式”表示一次请求目的的
 
 
 
-![image-20220430210116300](../../../blog/zheng-s/source/image/image-20220430210116300.png)
+![image](https://user-images.githubusercontent.com/65000660/172417255-84c969f5-efce-4e97-bf36-64f4de23adcb.png)
 
 
 
@@ -16,13 +16,13 @@ Restful风格的请求是使用“url+请求方式”表示一次请求目的的
 
 • SpringMVC 默认已经提供了一些常用的类型转换器，例如客户端提交的字符串转换成int型进行参数设置。 • 但是不是所有的数据类型都提供了转换器，没有提供的就需要自定义转换器，例如：日期类型的数据就需要自 定义转换器。 自定义类型转换器的开发步骤： ① 定义转换器类实现Converter接口 ② 在配置文件中声明转换器 ③ 在中引用转换
 
-![image-20220502161608023](../../../blog/zheng-s/source/image/image-20220502161608023.png)
+![image](https://user-images.githubusercontent.com/65000660/172417347-bb6f194e-47b1-403d-8b7f-25e4c3ae3288.png)
+![image](https://user-images.githubusercontent.com/65000660/172417377-623fef85-f926-4807-9f47-6309a9669106.png)
 
-![image-20220502161622688](../../../blog/zheng-s/source/image/image-20220502161622688.png)
 
 ### servlet相关API:
 
-![image-20220502161711561](../../../blog/zheng-s/source/image/image-20220502161711561.png)
+![image](https://user-images.githubusercontent.com/65000660/172417419-20b9ff24-7001-44b7-8775-f12ceab4e2fa.png)
 
 
 
@@ -30,11 +30,9 @@ Restful风格的请求是使用“url+请求方式”表示一次请求目的的
 
 获得请求头:
 
-![image-20220502161830525](../../../blog/zheng-s/source/image/image-20220502161830525.png)
+![image](https://user-images.githubusercontent.com/65000660/172417471-825c53ee-f747-4a3f-ade5-407b71975e23.png)
 
-![image-20220502161843752](../../../blog/zheng-s/source/image/image-20220502161843752.png)
-
-
+![image](https://user-images.githubusercontent.com/65000660/172417499-5b39e4cd-1f2c-40f8-b223-d9eaf78af99a.png)
 
 
 
@@ -42,36 +40,36 @@ Restful风格的请求是使用“url+请求方式”表示一次请求目的的
 
 
 
-![image-20220502161922308](../../../blog/zheng-s/source/image/image-20220502161922308.png)
+![image](https://user-images.githubusercontent.com/65000660/172417535-c283619c-086b-4ee5-86b8-f6887eb8eb1e.png)
 
 
 
 
 
-![image-20220502161939418](../../../blog/zheng-s/source/image/image-20220502161939418.png)
+![image](https://user-images.githubusercontent.com/65000660/172417561-37375dc5-c2e0-486b-8aad-dc656a7898ee.png)
 
 
 
 
 
-![image-20220502161957677](../../../blog/zheng-s/source/image/image-20220502161957677.png)
+![image](https://user-images.githubusercontent.com/65000660/172417594-53f8ef41-158c-45da-b699-9ccff19b3858.png)
 
 
 
-![image-20220502162026158](../../../blog/zheng-s/source/image/image-20220502162026158.png)
-
-
-
-
-
-![image-20220502162041135](../../../blog/zheng-s/source/image/image-20220502162041135.png)
+![image](https://user-images.githubusercontent.com/65000660/172417640-50028e2d-267e-4e78-9e34-a2fd4d48675c.png)
 
 
 
 
 
-![image-20220502162055664](../../../blog/zheng-s/source/image/image-20220502162055664.png)
+![image](https://user-images.githubusercontent.com/65000660/172417684-63983c58-4ebf-4035-917a-5f0778426c84.png)
 
 
 
-![image-20220502162121579](../../../blog/zheng-s/source/image/image-20220502162121579.png)
+
+
+![image](https://user-images.githubusercontent.com/65000660/172417715-e7a993b9-1f19-47c3-917f-6290209a4f5a.png)
+
+
+
+![image](https://user-images.githubusercontent.com/65000660/172417753-2e5bc124-af76-4012-9752-11c5688a2b18.png)
