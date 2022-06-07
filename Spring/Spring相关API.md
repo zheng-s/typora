@@ -2,7 +2,7 @@
 
 三个抽象类ClassPathXmlApplication:只要在工程的resource里有这个配置文件就行,最常用
 
-![image-20220425105514951](../../../blog/zheng-s/source/image/image-20220425105514951.png)
+![image](https://user-images.githubusercontent.com/65000660/172419469-e742025e-c85f-4537-8169-a4d616be2881.png)
 
 ​       FileSystemXmlApplication:从系统磁盘读取绝对路径,右键cpoypath
 
