@@ -4,7 +4,7 @@
 
 ### 1.1 typeHandlers标签:
 
-![image-20220506172212509](../../../blog/zheng-s/source/image/image-20220506172212509.png)
+![image](https://user-images.githubusercontent.com/65000660/172401806-0be71bbd-00ec-4df2-8138-b2192da56ca3.png)
 
 
 
@@ -183,15 +183,9 @@ MyBatis可以使用第三方的插件来对功能进行扩展，分页助手Page
 
 ③ 测试分页数据获
 
-![image-20220506200155853](../../../blog/zheng-s/source/image/image-20220506200155853.png)
-
-
-
-![image-20220506200210952](../../../blog/zheng-s/source/image/image-20220506200210952.png)
-
-
-
-![image-20220506200226116](../../../blog/zheng-s/source/image/image-20220506200226116.png)
+![image](https://user-images.githubusercontent.com/65000660/172401929-7709b2b5-a282-47ea-a840-6257c0013d5b.png)
+![image](https://user-images.githubusercontent.com/65000660/172401968-cefbbab2-3c48-4868-b847-eeb99bb75344.png)
+![image](https://user-images.githubusercontent.com/65000660/172402016-ce0522bc-4f39-479b-b943-777081e79b19.png)
 
 
 
