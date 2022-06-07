@@ -6,17 +6,16 @@
 
 ### 创建拦截器类实现HandlerInterceptor接口:里面有三个方法
 
-![image-20220504105451856](../../../blog/zheng-s/source/image/image-20220504105451856.png)
+![image](https://user-images.githubusercontent.com/65000660/172415507-4f43131b-9bb3-4a1b-8e9f-01a29df54256.png)
 
 ### 配置拦截器:
 
-![image-20220504105523520](../../../blog/zheng-s/source/image/image-20220504105523520.png)
+![image](https://user-images.githubusercontent.com/65000660/172415568-d0f340fb-b082-4715-a5b4-b935b2dc4c7c.png)
 
 ### 测试效果
 
-![image-20220504105549340](../../../blog/zheng-s/source/image/image-20220504105549340.png)
-
-![image-20220504105607762](../../../blog/zheng-s/source/image/image-20220504105607762.png)
+![image](https://user-images.githubusercontent.com/65000660/172415612-f146bae7-231b-43c8-9d23-a9b8dfec9956.png)
+![image](https://user-images.githubusercontent.com/65000660/172415669-a4328ba2-cf3f-4151-adb9-af6ec41cfd19.png)
 
 三个方法可以对controller层进行影响
 
@@ -28,7 +27,7 @@
 
 ### 案例:紧接Spring练习,用户没有登陆得情况下,不能对后台菜单进行访问
 
-![image-20220504105908284](../../../blog/zheng-s/source/image/image-20220504105908284.png)
+![image](https://user-images.githubusercontent.com/65000660/172415712-1d5960a2-3458-48e3-a54c-2c5197bfb31c.png)
 
 **入口**  :任何操作逗得登录,所以入口很多,需要拦截器判断session(session通过request进行获取)中有没有user,若有retuen true放行,若false,返回(重定向)登录界面
 
