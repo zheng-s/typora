@@ -4,17 +4,16 @@
 
 
 
-![897ebbe493ccb12ef8497f48d8f7596](../../../blog/zheng-s/source/image/897ebbe493ccb12ef8497f48d8f7596.jpg)
+![image](https://user-images.githubusercontent.com/65000660/172415898-df52570b-2d08-491c-b82d-c0e175c27452.png)
 
 
 
 
 
-![image-20220429090948086](../../../blog/zheng-s/source/image/image-20220429090948086.png)
+![image](https://user-images.githubusercontent.com/65000660/172415978-33e6956c-e087-4380-8d46-504892d9df35.png)
 
 
-
-![image-20220429092735898](../../../blog/zheng-s/source/image/image-20220429092735898.png)
+![image](https://user-images.githubusercontent.com/65000660/172416039-2a1bd8ba-42ee-4d7a-91f3-608793ef5388.png)
 
 
 
@@ -32,7 +31,7 @@
 
 ##### 1.1直接返回字符串进行视图跳转,你反悔的字符串前面加forward:代表转发,加rediret:代表重定向
 
-![image-20220429165838262](../../../blog/zheng-s/source/image/image-20220429165838262.png)
+![image](https://user-images.githubusercontent.com/65000660/172416006-0b4afa61-673e-41f0-8c41-e79152b97ef6.png)
 
 ##### 1.2通过ModelAndView对象进行返回:在方法中new一个ModelAndView对象,也可以直接方法上进行注入
 
@@ -66,19 +65,19 @@ public String save2(HttpServletRequest request){ //Spring框架调用这个方�
 }
 ```
 
-![image-20220429172924198](../../../blog/zheng-s/source/image/image-20220429172924198.png)
+![image](https://user-images.githubusercontent.com/65000660/172416121-4a085d42-eb67-46cf-b964-105320b16b56.png)
 
 
 
 **request是tomcat帮你创建的对象,里边有东西,http请求的数据都再这里边封装,请求行,请求头,请求体等等,我要用它存数据,然后返回视图,类似于modelAndView,一个是Springmvc帮你封装好的都西昂,而request是javaweb的对象,这种不常用,尽可能与javaweb解耦**
 
-![image-20220429172945894](../../../blog/zheng-s/source/image/image-20220429172945894.png)
+![image](https://user-images.githubusercontent.com/65000660/172416166-b4156705-90c8-400a-805a-51d3bdc24775.png)
 
 #### 2,直接回写数据
 
 ##### 2.1直接返回字符串,需要借助注解@ResponseBody告知返回的是串不是视图名字
 
-![image-20220429171641559](../../../blog/zheng-s/source/image/image-20220429171641559.png)
+![image](https://user-images.githubusercontent.com/65000660/172416303-3d157c44-5153-43d5-b6de-e12b61fb564a.png)
 
 
 
@@ -145,7 +144,7 @@ public User save7() throws IOException {
 
 ### SpringMVC获得请求数据:
 
-![image-20220430160928126](../../../blog/zheng-s/source/image/image-20220430160928126.png)
+![image](https://user-images.githubusercontent.com/65000660/172416382-453536a3-2aaa-460a-9470-405209e7f320.png)
 
 #### 基本数据类型:
 
@@ -166,7 +165,7 @@ username,age就是请求参数
 
 
 
-结果:![image-20220430161947369](../../../blog/zheng-s/source/image/image-20220430161947369.png)
+结果:![image](https://user-images.githubusercontent.com/65000660/172416467-517a88df-1931-4370-bd44-15999e5a0b8b.png)
 
 #### POJO数据类型:
 
@@ -188,7 +187,7 @@ http://localhost:8888/itheima_spring_mvc/user/quick11?username=zhangsan&age=19
 
 
 
-![image-20220430162728605](../../../blog/zheng-s/source/image/image-20220430162728605.png)
+![image](https://user-images.githubusercontent.com/65000660/172416517-454d7df3-bdc6-42c2-b84c-50b3332e345c.png)
 
 
 
@@ -208,7 +207,7 @@ public void save12(String[] strs)throws IOException{
 
 http://localhost:8888/itheima_spring_mvc/user/quick12?strs=aaa&strs=bbb&strs=ccc
 
-![image-20220430163213284](../../../blog/zheng-s/source/image/image-20220430163213284.png)
+![image](https://user-images.githubusercontent.com/65000660/172416575-c43440c9-9fc3-4d0f-889f-ed11bbe5d091.png)
 
 
 
@@ -292,8 +291,7 @@ public class VO {
 
 
 ##### 方法二:
-
-![image-20220430170725410](../../../blog/zheng-s/source/image/image-20220430170725410.png)
+![image](https://user-images.githubusercontent.com/65000660/172416626-dcfdd11b-c834-40fa-bcd3-091072d24931.png)
 
 
 
@@ -326,7 +324,7 @@ ajax.jsp
 
 
 
-![image-20220430174825123](../../../blog/zheng-s/source/image/image-20220430174825123.png)
+![image](https://user-images.githubusercontent.com/65000660/172416709-7e081acd-1dd3-4994-ba2c-de628a58dd14.png)
 
 ```java
 @RequestMapping(value = "/quick14")
@@ -352,7 +350,7 @@ public void save14(@RequestBody List<User> userList)throws IOException{
 
 ### 请求数据的乱码问题:
 
-![image-20220430203119845](../../../blog/zheng-s/source/image/image-20220430203119845.png)
+![image](https://user-images.githubusercontent.com/65000660/172416754-f4fa4ffd-a45f-4057-bc60-a45e40d78139.png)
 
 ```xml
 <filter>
@@ -369,7 +367,7 @@ public void save14(@RequestBody List<User> userList)throws IOException{
 </filter-mapping>
 ```
 
-![image-20220430203608698](../../../blog/zheng-s/source/image/image-20220430203608698.png)
+![image](https://user-images.githubusercontent.com/65000660/172416803-d8c02270-edca-43d7-9acf-00a74dead777.png)
 
 
 
@@ -385,12 +383,8 @@ public void save15(@RequestParam(value = "name") String username)throws IOExcept
 }
 ```
 
-![image-20220430204409842](../../../blog/zheng-s/source/image/image-20220430204409842.png)
-
-
-
-![image-20220430204615675](../../../blog/zheng-s/source/image/image-20220430204615675.png)
-
+![image](https://user-images.githubusercontent.com/65000660/172416833-2da5115c-015b-4541-945d-3ae4cd78fd8a.png)
+![image](https://user-images.githubusercontent.com/65000660/172416859-60167468-7ece-454c-acdb-82711829d4a8.png)
 
 
 
