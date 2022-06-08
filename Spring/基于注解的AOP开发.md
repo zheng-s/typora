@@ -1,8 +1,7 @@
 ### ① 创建目标接口和目标类（内部有切点）
 
 ### ② 创建切面类（内部有增强方法）
-
-![image-20220505092052826](../../../blog/zheng-s/source/image/image-20220505092052826.png)
+![image](https://user-images.githubusercontent.com/65000660/172513953-605ce70c-7ba1-475c-b70a-78d0ad4c861a.png)
 
 ### ③ 将目标类和切面类的对象创建权交给 spring
 
@@ -22,7 +21,7 @@ public class Target implements TargetInterface {
 public class MyAspect {
 ```
 
-![image-20220505092346636](../../../blog/zheng-s/source/image/image-20220505092346636.png)
+![image](https://user-images.githubusercontent.com/65000660/172514042-a7ba7205-619a-4fa5-9a4b-b56f0e27d05e.png)
 
 ### ④ 在切面类中使用注解配置织入关系
 
@@ -73,9 +72,7 @@ public void before(){
 
 
 ### \1. 注解通知的类型:
-
-![image-20220505093113531](../../../blog/zheng-s/source/image/image-20220505093113531.png)
-
+![image](https://user-images.githubusercontent.com/65000660/172514022-0ead8a4b-127a-467b-be99-5fa4cc51e118.png)
 
 
 
@@ -83,8 +80,7 @@ public void before(){
 
 
 ### \2. 切点表达式的抽取
-
-![image-20220505093219801](../../../blog/zheng-s/source/image/image-20220505093219801.png)
+![image](https://user-images.githubusercontent.com/65000660/172514210-b2ee0d6a-9e86-4acf-9d75-6af7bfbadb72.png)
 
 ```java
 //定义切点表达式
@@ -125,4 +121,4 @@ public void after(){
 
 #### ③ 在配置文件中配置aop自动代理
 
-![image-20220505093550450](../../../blog/zheng-s/source/image/image-20220505093550450.png)
+![image](https://user-images.githubusercontent.com/65000660/172514233-5d037e32-d00e-4ad6-a704-522f34aeec25.png)
