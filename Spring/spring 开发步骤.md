@@ -75,7 +75,9 @@ destory-method方法:指定类的销毁方法名称
 
 #### 4,Bean得依赖注入分析
 
-刚才得代码是让Spring产生dao层得对象,业务层,web层也是有对应代码![IMG_20220412_210419](../../../blog/zheng-s/source/image/IMG_20220412_210419.jpg)的
+刚才得代码是让Spring产生dao层得对象,业务层,web层也是有对应代码
+![image](https://user-images.githubusercontent.com/65000660/172512705-e0389c0c-dfdf-4d6c-a351-b812588d4a8d.png)
+
 
 #### 5,依赖注入的概念:
 
@@ -377,6 +379,6 @@ public class UserDaoImpl implements Userdao {
 
 #### 7,引入其他配置文件(分模块开发),因为Spring的配置文件可能非常庞大
 
-Spring![image-20220413195854071](../../../blog/zheng-s/source/image/image-20220413195854071.png)配置文件庞杂.,可以将部分配置拆解到其他配置文件中,而在Spring主配置文件通过import标签去进行加载
+Spring![image](https://user-images.githubusercontent.com/65000660/172512773-8f9c81f3-736a-4c4e-870e-38e86b93649f.png)配置文件庞杂.,可以将部分配置拆解到其他配置文件中,而在Spring主配置文件通过import标签去进行加载
 
 <import resource=".xml"/>
