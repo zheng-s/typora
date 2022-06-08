@@ -201,7 +201,7 @@ execution(void com.itheima.aop.Target.*(..))  *是通配符,Target包下面如�
 
 ### 关于advice得类型:
 
-![image-20220504215034699](../../../blog/zheng-s/source/image/image-20220504215034699.png)
+![image](https://user-images.githubusercontent.com/65000660/172513319-1d8d6942-5fd3-443b-a075-47ce878222c7.png)
 
 
 
@@ -228,4 +228,4 @@ execution(void com.itheima.aop.Target.*(..))  *是通配符,Target包下面如�
 
 ### 知识要点
 
-![image-20220504220045126](../../../blog/zheng-s/source/image/image-20220504220045126.png)
+![image](https://user-images.githubusercontent.com/65000660/172513338-1268597b-47d6-48a2-9681-574abb128474.png)
